@@ -37,16 +37,32 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-3">
-                <form class="bg-dark">
+                <form class="bg-dark" style="font-family: inherit; font-size: 1rem;">
                     <p>Filter Search</p>
-                    <ul class="list-group bg-dark" style="font-family: inherit; font-size: 1rem;">
-                        <li class="list-group-item bg-dark" style="font-family: inherit; font-size: 1rem;">
+                    <ul class="bg-dark">
+                        <li class="filter bg-dark">
                             <label for="date">Enter Date</label>
                             <input type="text" placeholder="1/10/2010" id="datetime" />
                         </li>
-                        <li class="list-group-item bg-dark" style="font-family: inherit; font-size: 1rem;">
-                            <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>
+                        <li class="filter bg-dark">
+                            <label for="date">Enter City</label>
+                            <input type="text" placeholder="reno" id="city" />
                         </li>
+                        <li class="filter bg-dark">
+                            <label for="date">Enter State</label>
+                            <input type="text" placeholder="nv" id="state" />
+                        </li>
+                        <li class="filter bg-dark">
+                            <label for="date">Enter Country</label>
+                            <input type="text" placeholder="us" id="country" />
+                        </li>
+                        <li class="filter bg-dark">
+                            <label for="date">Enter Shape</label>
+                            <input type="text" placeholder="circle, light, triangle, etc." id="shape" />
+                        </li>
+                        <!--<li class="list-group-item bg-dark" style="font-family: inherit; font-size: 1rem;">
+                            <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>
+                        </li>-->
                     </ul>
                 </form>
             </div>
